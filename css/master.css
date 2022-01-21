@@ -1,0 +1,103 @@
+/* *{
+  overflow-x: hidden;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+img{
+  border: 8px solid #38313E;
+  border-radius: 8px;
+}
+
+.stinky{
+
+border: none;
+}
+
+.hero-head{
+  background:#A200F2;
+  width: 400px;
+  border-radius: 50px 50px;
+  color:black;
+}
+.hero-head > h1{
+  color: black;
+}
+
+
+
+.hero{
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-image:url(../images/img1.JPG);
+  height: 40vw;
+}
+
+body{
+  background-color:#E7DCF2;
+}
+
+.bee{
+  margin-bottom: 100px;
+  width:40vw;
+  border: 8px solid #38313E;
+}
+
+
+.meep{
+  width: 100vw;
+  height: 40vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+#carouselExampleControls{
+  /* width:60vw;
+  height:60vw; */
+}
+
+.small{
+  width: 20vw;
+/* padding-left: 50px;*/}
+
+li{
+  padding:10px;
+}
+
+body{
+  font-family: 'Roboto Mono', monospace;
+}
+
+p, li{
+  font-size: 1.563rem;
+}
+
+h2{
+  font-size: 2.441rem;
+}
+
+span{
+  float: right;
+  padding-right: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+@media only screen and (max-width: 600px){
+  .small {
+    width: 60vw;
+}
+
+stinky{
+
+}
+
+  }
